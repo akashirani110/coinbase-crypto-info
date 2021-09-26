@@ -1,6 +1,13 @@
  import React from 'react';
  import './CoinsInfo.css';
  
+ /**
+  * CoinsInfo functional component takes following params  
+  * @param {marketCapRank, image, name, price, marketCap, pricePercentChange} 
+  * @returns coins list with data like Market Cap Rank, Name, Image, Current price, Market Cap, Change of Price in Percentage 
+  *  
+  */
+
  const CoinsInfo = ({ marketCapRank, image, name, price, marketCap, pricePercentChange }) => {
   return (
     <div className = "coins-list-container">
